@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("https://wallpapercave.com/wp/wp4953890.jpg");
+    background-position: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+nav {
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    margin: 1rem;
+    font-size: 2rem;
+    border: solid 2px rgb(18, 29, 110);
+    padding: 7px;
+    text-transform: uppercase;
+}
+
+
+
+.home {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 6rem;
+}
+
+.todo {
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    border-radius: 10px;
+    transition: 0.3s;
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 2rem;
+}
+
+.form {
+    margin: 10rem auto 0;
+    width: 40%;
+    text-align: center;
+}
+
+form {
+    background: rgba(209, 214, 232, 0.6);
+    padding: 30px;
+}
+
+input {
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 10px;
+    width: 60%;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.remove, .down {
+    margin: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .form {
+    width: 90%;
+    margin-top: 10%;
+    height: 600px;
+    }
+    form {
+        height: 100%;
+    }
+    .flex {
+        display: flex;
+        align-items: center;
+        margin: auto;
+    }
+}
